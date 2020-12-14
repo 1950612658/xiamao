@@ -1,0 +1,30 @@
+server:
+  port: 8007
+spring:
+  application:
+    name: service-msm
+  #redis配置
+  redis:
+    host: 192.168.10.129
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 5  #最大阻塞等待时间(负数表示没限制)
+        min-idle: 0  #最小空闲
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.10.129:8848 #192.168.43.23:8848
+  #返回json的全局时间格式
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+#mybatis日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
