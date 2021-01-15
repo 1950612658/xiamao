@@ -18,5 +18,5 @@ spring:
 aliyun:
   vod:
     file:
-      keyid: LTAI4G7A6KTP1XNfYvSWQxX7
-      keysecret: wBMaWxwBh2ZP7uEf6gPubXo11dd264
+      keyid: 
+      keysecret: 
