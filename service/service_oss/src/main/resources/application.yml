@@ -15,6 +15,6 @@ aliyun:
   oss:
     file:
       endpoint: oss-cn-beijing.aliyuncs.com
-      keyid: LTAI4G7A6KTP1XNfYvSWQxX7
-      keysecret: wBMaWxwBh2ZP7uEf6gPubXo11dd264
+      keyid: 
+      keysecret: 
       bucketname: xiaomao-edu
